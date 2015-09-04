@@ -1,0 +1,1452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.0.4.1
+- http://www.phpmyadmin.net
+-
+- Хост: localhost
+- Время создания: Ноя 23 2014 г., 14:19
+- Версия сервера: 5.6.12
+- Версия PHP: 5.5.3
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="romip2" collation="utf8_general_ci" charset="utf8">
+            <pma:table name="ttk">
+                CREATE TABLE `ttk` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `twitid` bigint(32) NOT NULL DEFAULT '0',
+                  `date` varchar(128) DEFAULT NULL,
+                  `name` varchar(128) DEFAULT NULL,
+                  `text` varchar(256) DEFAULT NULL,
+                  `beeline` varchar(10) DEFAULT NULL,
+                  `mts` varchar(10) DEFAULT NULL,
+                  `megafon` varchar(10) DEFAULT NULL,
+                  `tele2` varchar(10) DEFAULT NULL,
+                  `rostelecom` varchar(10) DEFAULT NULL,
+                  `komstar` varchar(10) DEFAULT NULL,
+                  `skylink` varchar(10) DEFAULT NULL,
+                  PRIMARY KEY (`id`),
+                  UNIQUE KEY `id` (`twitid`),
+                  UNIQUE KEY `id_2` (`twitid`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=5001 DEFAULT CHARSET=utf8;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - База данных: 'romip2'
+    -->
+    <database name="romip2">
+        <!-- Таблица ttk -->
+        <table name="ttk">
+            <column name="id">1</column>
+            <column name="twitid">492367588165680000</column>
+            <column name="date">1406224555</column>
+            <column name="name">Beeline_RUS</column>
+            <column name="text">@mkomov Максим, Вашем письмо мы получили. Наши сотрудники свяжутся с Вами завтра и направят запрос инженерам для проверки. #билайн</column>
+            <column name="beeline">0</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">2</column>
+            <column name="twitid">492369449912380000</column>
+            <column name="date">1406224999</column>
+            <column name="name">ALarina46</column>
+            <column name="text">«Мегафон» стал владельцем 50% акций «Евросети»</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">0</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">3</column>
+            <column name="twitid">492369715378290000</column>
+            <column name="date">1406225062</column>
+            <column name="name">asntanya</column>
+            <column name="text">RT @fuckkiev: “@EvaKobb: МТС Россия прислала жителям Херсонщины сообщения, в которых обозвала украинцев фашистами? http://t.co/RbSesXlOUZ” …</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">-1</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">4</column>
+            <column name="twitid">492369842205650000</column>
+            <column name="date">1406225092</column>
+            <column name="name">drienKnepp</column>
+            <column name="text">ВИДЕО: http://t.co/PSMLAhR4fI Реклама со смехом МТС - Супер 0</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">1</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">5</column>
+            <column name="twitid">492371322060950000</column>
+            <column name="date">1406225445</column>
+            <column name="name">swift_avh</column>
+            <column name="text">@parfenov1960 потому что МТС достало, а пчел ненавижу с детства, как и их мёд!</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">-1</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">6</column>
+            <column name="twitid">492371458703000000</column>
+            <column name="date">1406225478</column>
+            <column name="name">yalaura</column>
+            <column name="text">@parfenov1960 у меня давно &quot;Мегафон&quot;, Леонид, но вам не западло?</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">--</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">7</column>
+            <column name="twitid">492371599145070000</column>
+            <column name="date">1406225511</column>
+            <column name="name">_musi_pusi_</column>
+            <column name="text">RT @f_u_c_k_y_o_u_: Билайн интернет стал полным говном</column>
+            <column name="beeline">-1</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">8</column>
+            <column name="twitid">492372463314300000</column>
+            <column name="date">1406225717</column>
+            <column name="name">counreiatsmar</column>
+            <column name="text">На Дне города в Тюмени «МегаФон» разыграет смартфон за лучшее селфи</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">0</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">9</column>
+            <column name="twitid">492372556402660000</column>
+            <column name="date">1406225739</column>
+            <column name="name">TTitov42</column>
+            <column name="text">&amp;amp;laquo;Ростелеком&amp;amp;raquo; стал партнером всероссийского конкурса &amp;amp;laquo;Поколение i&amp;amp;raquo; на создание лучшего интернет-проекта для детей, о</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">0</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">10</column>
+            <column name="twitid">492372843519550000</column>
+            <column name="date">1406225808</column>
+            <column name="name">sergey_flint</column>
+            <column name="text">RT @parfenov1960: Сотовый оператор Мегафон проводит конкурс с розыгрышем 50 iPhone 5s. Для участия нужно... http://t.co/8SZYFgjtMe</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">0</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">11</column>
+            <column name="twitid">492373034649790000</column>
+            <column name="date">1406225853</column>
+            <column name="name">Nazar8roD</column>
+            <column name="text">«МегаФон» поможет контролировать расходы на Интернет за границей</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">1</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">12</column>
+            <column name="twitid">492373693491070000</column>
+            <column name="date">1406226011</column>
+            <column name="name">kirya_mestniy</column>
+            <column name="text">@parfenov1960 Фуфло эт ваш Мегафон.просит много,дает мало.</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">-1</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">13</column>
+            <column name="twitid">492373878036260000</column>
+            <column name="date">1406226055</column>
+            <column name="name">gray__soul</column>
+            <column name="text">@vinylanarchist Ну давай ты позвонишь как будешь в парке, а я подойду
+или наоборот
+у тя мтс ?</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">0</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">14</column>
+            <column name="twitid">492374952361070000</column>
+            <column name="date">1406226311</column>
+            <column name="name">MPikuleva36</column>
+            <column name="text">За 7 месяцев Tele2 провела 90 городских мероприятий, в которых участвовали 85 тыс. человек</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">0</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">15</column>
+            <column name="twitid">492375910902150000</column>
+            <column name="date">1406226539</column>
+            <column name="name">Digital_Fox</column>
+            <column name="text">@Beeline_RUS То есть новый номер только в офисе и из тех, что есть в офисе? Заранее никак?</column>
+            <column name="beeline">0</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">16</column>
+            <column name="twitid">492376000995810000</column>
+            <column name="date">1406226561</column>
+            <column name="name">LSerova34</column>
+            <column name="text">Вот если и хаять сеть, то МТС! Просто адский оператор какой-то!</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">-1</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">17</column>
+            <column name="twitid">492376795195670000</column>
+            <column name="date">1406226750</column>
+            <column name="name">prexw</column>
+            <column name="text">RT @51evgen: @EvaKobb давайте откажемся от МТС,у меня 4 номера Я ГОТОВ!</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">-1</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">18</column>
+            <column name="twitid">492377030475120000</column>
+            <column name="date">1406226806</column>
+            <column name="name">KPlatonova44</column>
+            <column name="text">«Ростелеком» традиционно выступил партнером XIV Международного праздника Огурца в Суздале. Мероприятие, участниками которого стали более 14</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">0</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">19</column>
+            <column name="twitid">492377444981440000</column>
+            <column name="date">1406226905</column>
+            <column name="name">APiyanzin22</column>
+            <column name="text">УрБК, Екатеринбург, 22.07.2014. ОАО «МегаФон» стало предоставлять услуги сверхскоростной мобильной связи 4G+ еще в 14 населенных пунктах Св</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">1</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">20</column>
+            <column name="twitid">492378534107970000</column>
+            <column name="date">1406227165</column>
+            <column name="name">Sasha_Telepina</column>
+            <column name="text">«МегаФон» представил новую возможность сэкономить в роуминге</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">1</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">21</column>
+            <column name="twitid">492380161422430000</column>
+            <column name="date">1406227553</column>
+            <column name="name">isguare</column>
+            <column name="text">@imerkouri враньё! #Мегафон ГЭ! Проверено!</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">-1</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">22</column>
+            <column name="twitid">492380485944120000</column>
+            <column name="date">1406227630</column>
+            <column name="name">SkMaks</column>
+            <column name="text">RT @parfenov1960: Подписаться на мой аккаунт, сделать ретвит данного сообщения и сказать, почему Вы выбираете Мегафон. Желаю удачи. http://…</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">0</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">23</column>
+            <column name="twitid">492381921348170000</column>
+            <column name="date">1406227972</column>
+            <column name="name">hashimbek</column>
+            <column name="text">@maxbeylis @korobkov другим бизнесменам помогали ! МТС при продаже ГИ Каримова должна било предлогат с начало Государство . Как стратегик</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">0</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">24</column>
+            <column name="twitid">492382452493480000</column>
+            <column name="date">1406228099</column>
+            <column name="name">UlyaShupikova</column>
+            <column name="text">Билайн ставрополь справка http://t.co/9R3xJ6DqzV</column>
+            <column name="beeline">0</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">25</column>
+            <column name="twitid">492383882931870000</column>
+            <column name="date">1406228440</column>
+            <column name="name">DSapozhnikov</column>
+            <column name="text">Что объединяет #МТС и #МГТС ? Нет,не то, что они в одной группе компаний,а одинаково низкое качество услуг и поддержки</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">-1</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">26</column>
+            <column name="twitid">492384108816120000</column>
+            <column name="date">1406228494</column>
+            <column name="name">megafonkollegi</column>
+            <column name="text">@Grajdansky @megafonru @lexandrGurkin мы не можем работать бесплатно, а @rus_fas нас не накажет. Ведь мы ввели платные услуги по блок.спама</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">0</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">27</column>
+            <column name="twitid">492384716171900000</column>
+            <column name="date">1406228639</column>
+            <column name="name">DDikij1</column>
+            <column name="text">Леонид Парфенов снялся в рекламе планшетного интернета от &quot;Мегафон&quot; | АБН | Агентство Бизнес Новостей http://t.co/FTisq1k15d</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">0</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">28</column>
+            <column name="twitid">492385681617210000</column>
+            <column name="date">1406228869</column>
+            <column name="name">fmemcpy</column>
+            <column name="text">@Beeline_RUS Забавно. Сообщает минуты и трафик,смс не сообщает (но смс меня не интересует). Спасибо.</column>
+            <column name="beeline">0</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">29</column>
+            <column name="twitid">492386657698450000</column>
+            <column name="date">1406229101</column>
+            <column name="name">sam_nikotin</column>
+            <column name="text">#Траффик на Билайне уходит неумолимо :(
+#Билайн #Москва http://t.co/KGRzUG10xO</column>
+            <column name="beeline">-1</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">30</column>
+            <column name="twitid">492398877614830000</column>
+            <column name="date">1406232015</column>
+            <column name="name">nagagisow</column>
+            <column name="text">RT @owihycady: Новая реклама от пчелайна: - &quot;Просто пополняйте счет, и говорите бесплатно!&quot;. Я один вижу здесь какой-то подвох?</column>
+            <column name="beeline">-1</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">31</column>
+            <column name="twitid">492400160089970000</column>
+            <column name="date">1406232321</column>
+            <column name="name">T9Pruitt</column>
+            <column name="text">МТС проведет экскурсию дополненной реальности во Львове</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">0</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">32</column>
+            <column name="twitid">492400161377640000</column>
+            <column name="date">1406232321</column>
+            <column name="name">djoels_</column>
+            <column name="text">#RT МТС приглашает на экскурсию по местам боевой славы Донецка</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">0</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">33</column>
+            <column name="twitid">492402701238820000</column>
+            <column name="date">1406232927</column>
+            <column name="name">slavyanka_river</column>
+            <column name="text">@ru_mts вот утомили вы своей хитрожопостью, но пока альтернативы в местности нет, буду Вас заебывать.</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">-1</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">34</column>
+            <column name="twitid">492402924140520000</column>
+            <column name="date">1406232980</column>
+            <column name="name">DiegoCastro_dc</column>
+            <column name="text">Мегафон рассказал о правилах путешествия с телефоном - Тюменская линия</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">0</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">35</column>
+            <column name="twitid">492506279869300000</column>
+            <column name="date">1406257622</column>
+            <column name="name">wamyvovurumu</column>
+            <column name="text">«Ростелеком» стал партнером всероссийского конкурса «Поколение I»</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">0</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">36</column>
+            <column name="twitid">492506446081560000</column>
+            <column name="date">1406257661</column>
+            <column name="name">earar_tioplan</column>
+            <column name="text">МТС ввел звонок из роуминга за счет вызываемого абонента</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">0</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">37</column>
+            <column name="twitid">492506489672990000</column>
+            <column name="date">1406257672</column>
+            <column name="name">egtianrearthy</column>
+            <column name="text">МТС и Opera представили магазин мобильных приложений App Market</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">0</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">38</column>
+            <column name="twitid">492507754977060000</column>
+            <column name="date">1406257973</column>
+            <column name="name">Estelkaaa</column>
+            <column name="text">@John_H_Barboza вай фай наверно еще, не?)) а мне на мтс не хватало, там лимит на день маловат, я дополнительно тратила на добавку))</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">+-</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">39</column>
+            <column name="twitid">492507924254580000</column>
+            <column name="date">1406258014</column>
+            <column name="name">AkifevDmitriy</column>
+            <column name="text">Мегафон e173 скачать прошивку http://t.co/22yRZHrRlv</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">0</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">40</column>
+            <column name="twitid">492509650307130000</column>
+            <column name="date">1406258425</column>
+            <column name="name">ElizavetaSilina</column>
+            <column name="text">Мегафон тверь справка http://t.co/EthMLtzIZo</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">0</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">41</column>
+            <column name="twitid">492510342103060000</column>
+            <column name="date">1406258590</column>
+            <column name="name">Syrii0n</column>
+            <column name="text">Завтра может у меня будет и Домашнее Цифровое ТВ МТС #RT</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">1</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">42</column>
+            <column name="twitid">492510730210800000</column>
+            <column name="date">1406258683</column>
+            <column name="name">ledenev</column>
+            <column name="text">@Beeline_RUS ребят, касательно вашего чудесного Мой Билайн.app для iPhone. А можно его сделать ещё чуточку чудеснее?) http://t.co/MgNY0TdPpt</column>
+            <column name="beeline">1</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">43</column>
+            <column name="twitid">492511084989800000</column>
+            <column name="date">1406258767</column>
+            <column name="name">daverchenko</column>
+            <column name="text">Настройка ммс на iphone 5 теле2 http://t.co/KMUGNUvJ1d</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">0</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">44</column>
+            <column name="twitid">492512780705360000</column>
+            <column name="date">1406259172</column>
+            <column name="name">Svinchukov</column>
+            <column name="text">@Tselyanov @diden05 @redcom_internet Им и пользуюсь сейчас! Спасибо @MegaFonDVpr !</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">1</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">45</column>
+            <column name="twitid">492514428839940000</column>
+            <column name="date">1406259564</column>
+            <column name="name">esternomacleido</column>
+            <column name="text">Завтра придется идти в Мегафон, а то я что-то не разберу</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">-1</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">46</column>
+            <column name="twitid">492517256593940000</column>
+            <column name="date">1406260239</column>
+            <column name="name">YuriyGerzel</column>
+            <column name="text">@Beeline_RUS здравствуйте! У меня есть идея по поводу тарифа. А также хочу направить вам резюме. Не подскажете адреса, куда можно направить?</column>
+            <column name="beeline">0</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">47</column>
+            <column name="twitid">492519773860030000</column>
+            <column name="date">1406260839</column>
+            <column name="name">FSerebryakova45</column>
+            <column name="text">Рынки больших городов насыщены, а программа цифровизации «Ростелекомом» малых населенных пунктов еще не началась</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">0</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">48</column>
+            <column name="twitid">492520512740790000</column>
+            <column name="date">1406261015</column>
+            <column name="name">icubuzaka</column>
+            <column name="text">инструкция настройки роутера keenetic 4g мтс сотовый оператор http://t.co/yb0e28EJS2 #4g</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">0</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">49</column>
+            <column name="twitid">492522451180320000</column>
+            <column name="date">1406261477</column>
+            <column name="name">CabanaDigg</column>
+            <column name="text">завтра хочу сделать фотку с Сашей из мтс ,реально !! уу,Женя меня убьет))</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">1</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">50</column>
+            <column name="twitid">492522807507820000</column>
+            <column name="date">1406261562</column>
+            <column name="name">IrinaBulgutova</column>
+            <column name="text">Интернет в Тунке глючит, правда. #Мегафон тоже сволочной оператор.</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">-1</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">51</column>
+            <column name="twitid">492524149244710000</column>
+            <column name="date">1406261882</column>
+            <column name="name">nerebulacih</column>
+            <column name="text">Возможность быть &quot;онлайн&quot; - специфика работы требует - очень радует (теперь ещё вафай-переносной-модем куплю мегафоновский и вообще в</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">1</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">52</column>
+            <column name="twitid">492524970300280000</column>
+            <column name="date">1406262078</column>
+            <column name="name">InterpriseKz</column>
+            <column name="text">RT @_Beeline_kz: Сегодня День Системного Администратора! =) С праздником, друзья! http://t.co/KiDNwq11ht</column>
+            <column name="beeline">1</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">53</column>
+            <column name="twitid">492527974278000000</column>
+            <column name="date">1406262794</column>
+            <column name="name">AKrotova42</column>
+            <column name="text">ОАО &amp;amp;quot;Мобильные ТелеСистемы&amp;amp;quot; сообщает о запуске в коммерческую эксплуатацию первой сети 4G в Тюменской области. Услуги мобильной п</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">0</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">54</column>
+            <column name="twitid">492528199663100000</column>
+            <column name="date">1406262848</column>
+            <column name="name">dernovnarc68792</column>
+            <column name="text">Незаконная задолженность МТС - минус 9 миллионов! #minsk #ТвиттерСила</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">-1</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">55</column>
+            <column name="twitid">492528940020680000</column>
+            <column name="date">1406263024</column>
+            <column name="name">IUstinova56</column>
+            <column name="text">«МегаФон» в Вологодской области: полгода на скоростях 4G+</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">1</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">56</column>
+            <column name="twitid">492529470885340000</column>
+            <column name="date">1406263151</column>
+            <column name="name">takar4</column>
+            <column name="text">RT @EvaKobb: МТС Россия прислала жителям Херсонщины сообщения, в которых обозвала украинцев фашистами? http://t.co/a0cGv7RIaj</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">-1</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">57</column>
+            <column name="twitid">492530400502510000</column>
+            <column name="date">1406263372</column>
+            <column name="name">Sokolovafievice</column>
+            <column name="text">«МТС Урал» отмечает рост продаж мобильных устройств с поддержкой 4G</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">1</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">58</column>
+            <column name="twitid">492530940074530000</column>
+            <column name="date">1406263501</column>
+            <column name="name">vtoroj_shans</column>
+            <column name="text">У группы есть &quot;голодный телефон&quot;. Деньги, которые вы положите на этот номер: 8-965-925-0920 (Билайн), буд.. http://t.co/l64WsbRhb9</column>
+            <column name="beeline">0</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">59</column>
+            <column name="twitid">492532183333360000</column>
+            <column name="date">1406263797</column>
+            <column name="name">katrinpasyi533</column>
+            <column name="text">http://t.co/RrwH81dENe Сотовый оператор МТС ввел функцию звонков из международного роуминга в Россию за счет вызываемого або</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">0</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">60</column>
+            <column name="twitid">492532370848100000</column>
+            <column name="date">1406263842</column>
+            <column name="name">FDmitriev21</column>
+            <column name="text">10 июля 2014 года вещание телеканала CTC Love стартовало в цифровой кабельной сети «Билайн».</column>
+            <column name="beeline">0</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">61</column>
+            <column name="twitid">492532553891730000</column>
+            <column name="date">1406263886</column>
+            <column name="name">taaarting</column>
+            <column name="text">RT @OliverLoveFrank: ЕСЛИ МОБ.ИНЕТ ОПЯТЬ НЕ ЗАРАБОТАЕТ - Я СОЖГУ ВО СЛАВУ САТАНЕ ВСЕ ЗДАНИЯ МТС
+ТВАРЬ ЗАХАРИЛИ УЖЕ ЛИШАТЬ МЕНЯ ИНЕТА
+Я ВАС …</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">-1</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">62</column>
+            <column name="twitid">492533315807610000</column>
+            <column name="date">1406264067</column>
+            <column name="name">etaqywyg</column>
+            <column name="text">мтс банк ростовский филиал руководство http://t.co/Ksi2QXrhr9 #ростовский #банк</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">0</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">63</column>
+            <column name="twitid">492534960340100000</column>
+            <column name="date">1406264460</column>
+            <column name="name">survepraful</column>
+            <column name="text">RT @MartinHayes13: Компания МТС после слогана «Ты лучше!» придумала ещё 2: «У тебя больше!» и «Ты чаще!»</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">1</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">64</column>
+            <column name="twitid">492536293247970000</column>
+            <column name="date">1406264777</column>
+            <column name="name">AlekseyChumakov</column>
+            <column name="text">@parfenov1960 Мегафон, потому что самый крутой мобильный интернет.</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">1</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">65</column>
+            <column name="twitid">492536699332090000</column>
+            <column name="date">1406264874</column>
+            <column name="name">Olegt0rr</column>
+            <column name="text">При этом выходишь на улицу и @megafonru снова летает! В метро показывает hspa+, а интернет не грузит вообще</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">+-</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">66</column>
+            <column name="twitid">492537832120910000</column>
+            <column name="date">1406265144</column>
+            <column name="name">ConniGrono</column>
+            <column name="text">RT @JulikaAttaway: Драйвера на модем билайна http://t.co/nU25P1XOve</column>
+            <column name="beeline">0</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">67</column>
+            <column name="twitid">492538096068890000</column>
+            <column name="date">1406265207</column>
+            <column name="name">Beeline_RUS</column>
+            <column name="text">@barskykd Константин, мы понимаем Вас.Но для того,что бы Вы могли пользоваться всеми возможностями нашей компании,пож-та,обратитесь=&amp;gt;#билайн</column>
+            <column name="beeline">0</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">68</column>
+            <column name="twitid">492538360817150000</column>
+            <column name="date">1406265270</column>
+            <column name="name">linesni</column>
+            <column name="text">Интересно. Интернет от МТС, бывший Стрим, вообще в курсе, что он высокоскоростной?! Скорость имеет, к тому же, волновую природу.</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">-1</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">69</column>
+            <column name="twitid">492538676577330000</column>
+            <column name="date">1406265346</column>
+            <column name="name">gapydesabiw</column>
+            <column name="text">код ошибки 4 билайн http://t.co/NePXo4S0YO</column>
+            <column name="beeline">0</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">70</column>
+            <column name="twitid">492540961155990000</column>
+            <column name="date">1406265890</column>
+            <column name="name">JovialWit</column>
+            <column name="text">МТС лучший</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">1</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">71</column>
+            <column name="twitid">492541058992340000</column>
+            <column name="date">1406265914</column>
+            <column name="name">boyarinaMO</column>
+            <column name="text">«Ростелеком» подсчитал ущерб от наводнения на Алтае</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">0</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">72</column>
+            <column name="twitid">492541240341450000</column>
+            <column name="date">1406265957</column>
+            <column name="name">ramon_escobar</column>
+            <column name="text">e367 мегафон http://t.co/RRVUL0typI прошивка</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">0</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">73</column>
+            <column name="twitid">492541427486690000</column>
+            <column name="date">1406266001</column>
+            <column name="name">MegaFon_SZ_Help</column>
+            <column name="text">@megafonru @VolkowaH Уточните, пожалуйста в ЛС Ваш номер,  ФИО абонента и Ваше точное местоположение город,улицу и номер дома.Проверим.</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">0</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">74</column>
+            <column name="twitid">492543853803890000</column>
+            <column name="date">1406266580</column>
+            <column name="name">safipawaroli</column>
+            <column name="text">RT @krasnok18629570: ФАС РФ на заседании в понедельник, 30 июня, приняло сторону компании МТС в споре вокруг контракта на обслуживание Сове…</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">0</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">75</column>
+            <column name="twitid">492544503036000000</column>
+            <column name="date">1406266735</column>
+            <column name="name">CeFeY_chik</column>
+            <column name="text">прошивка модема e160g билайн http://t.co/jlfEHHqmbY</column>
+            <column name="beeline">0</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">76</column>
+            <column name="twitid">492545313627200000</column>
+            <column name="date">1406266928</column>
+            <column name="name">LoLa_is_Love</column>
+            <column name="text">Кста я лошок, вчера билайн вырубил инет на самом интересном месте</column>
+            <column name="beeline">-1</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">77</column>
+            <column name="twitid">492545966634170000</column>
+            <column name="date">1406267084</column>
+            <column name="name">ZPavlenko34</column>
+            <column name="text">Tele2 подводит итоги четырех лет работы в Вологодской области</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">0</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">78</column>
+            <column name="twitid">492546018450640000</column>
+            <column name="date">1406267096</column>
+            <column name="name">megafonru</column>
+            <column name="text">@Olegt0rr @MegaFonHelp уточните, на каких именно ветках/на каких станциях наблюдались сложности с недоступностью мобильного интернет?</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">0</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">79</column>
+            <column name="twitid">492546694094270000</column>
+            <column name="date">1406267257</column>
+            <column name="name">n3tm4niac</column>
+            <column name="text">омг, появился сигнал #LTE на работе! #билайн</column>
+            <column name="beeline">1</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">80</column>
+            <column name="twitid">492547423362110000</column>
+            <column name="date">1406267431</column>
+            <column name="name">MBatuev19</column>
+            <column name="text">Абоненты МТС могут говорить за счет собеседника, находясь в роуминге</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">0</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">81</column>
+            <column name="twitid">492548225866670000</column>
+            <column name="date">1406267622</column>
+            <column name="name">AKonnova12</column>
+            <column name="text">С 7 по 14 июня 2014 года МТС будет ежедневно проводить розыгрыш билетов на Фестиваль «Воздух»</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">0</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">82</column>
+            <column name="twitid">492549621554480000</column>
+            <column name="date">1406267955</column>
+            <column name="name">waruzeqijuv</column>
+            <column name="text">что-то опять не работает автоплатеж в мегафон :-(</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">-1</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">83</column>
+            <column name="twitid">492549795840420000</column>
+            <column name="date">1406267997</column>
+            <column name="name">skysunessweepin</column>
+            <column name="text">«Мегафон» приобрел еще 25% акций компании «Евросеть» за 657 млн долларов</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">0</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">84</column>
+            <column name="twitid">492550187332950000</column>
+            <column name="date">1406268090</column>
+            <column name="name">jogelamuz42</column>
+            <column name="text">«Вымпелком» вслед за МТС снижает стоимость роуминга в Крыму</column>
+            <column name="beeline">1</column>
+            <column name="mts">0</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">85</column>
+            <column name="twitid">492550944669070000</column>
+            <column name="date">1406268271</column>
+            <column name="name">alexk5555</column>
+            <column name="text">Как и ожидалось, никакой @MegaFonUralhelp со скоростью помогать даже и не собирался. Лишь бы абонент отстал... http://t.co/hulmUH1CRF</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">-1</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">86</column>
+            <column name="twitid">492550993670710000</column>
+            <column name="date">1406268282</column>
+            <column name="name">sandra_ice</column>
+            <column name="text">Как отправить маячок с мтс, теле2, мегафона, билайна, ростелеком - KakChtoPochemu.ru http://t.co/hMbDp9ahJg</column>
+            <column name="beeline">0</column>
+            <column name="mts">0</column>
+            <column name="megafon">0</column>
+            <column name="tele2">0</column>
+            <column name="rostelecom">0</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">87</column>
+            <column name="twitid">492551703217320000</column>
+            <column name="date">1406268451</column>
+            <column name="name">Redchenko_Maxim</column>
+            <column name="text">Вот и МТС запустил LTE в Саратове... Билайн, ау?</column>
+            <column name="beeline">-1</column>
+            <column name="mts">1</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">88</column>
+            <column name="twitid">492552911675990000</column>
+            <column name="date">1406268739</column>
+            <column name="name">digelacon1974</column>
+            <column name="text">«Ростелеком» поддержал проведение соревнований по пляжному футболу «Анапа OPEN»</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">0</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">89</column>
+            <column name="twitid">492553471393290000</column>
+            <column name="date">1406268873</column>
+            <column name="name">Borodinanaucrys</column>
+            <column name="text">RT @t_felg: Предлагаю Билайну сгореть в аду</column>
+            <column name="beeline">-1</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">90</column>
+            <column name="twitid">492553613034920000</column>
+            <column name="date">1406268907</column>
+            <column name="name">Redchenko_Maxim</column>
+            <column name="text">@Wild_Ma13 вся семья на билайне...так бы поменял:)</column>
+            <column name="beeline">-1</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">91</column>
+            <column name="twitid">492554140623450000</column>
+            <column name="date">1406269032</column>
+            <column name="name">irpvir80</column>
+            <column name="text">пошаговая инструкция как связаться с оператором мегафон http://t.co/yR5dBnEjeL #как #мегафон</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">0</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">92</column>
+            <column name="twitid">492554676479720000</column>
+            <column name="date">1406269160</column>
+            <column name="name">hoka138</column>
+            <column name="text">Столько МТС здесь еще не было (@ Центральный парк культуры и отдыха) http://t.co/bnODxS5F7u http://t.co/WtH0CawegJ</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">+-</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">93</column>
+            <column name="twitid">492555700149950000</column>
+            <column name="date">1406269404</column>
+            <column name="name">diuwyelu</column>
+            <column name="text">Два повода подключить скоростной интернет от «Ростелекома» летом #R</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">1</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">94</column>
+            <column name="twitid">492556432097560000</column>
+            <column name="date">1406269579</column>
+            <column name="name">rykpnovide</column>
+            <column name="text">#минивэн NoahVoxy. Двигатель • Re: Перегрев двигателя 1AZ-FSE?: megafon_35, на алиэкспрес наши... http://t.co/quArnN3gW4 #автозапчасти</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">-1</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">95</column>
+            <column name="twitid">492557656788580000</column>
+            <column name="date">1406269871</column>
+            <column name="name">RNikolaev34</column>
+            <column name="text">Система видеонаблюдения «Ростелекома» успешно отработала в дополнительный период ЕГЭ</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">0</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">96</column>
+            <column name="twitid">492558334470660000</column>
+            <column name="date">1406270032</column>
+            <column name="name">Beeline_RUS</column>
+            <column name="text">@zinda96 Добрый день!Очень жаль, что у Вас возникло такое желание.Скажите, пож-та,цены на какие тарифы или услуги Вам не подходят? #билайн</column>
+            <column name="beeline">-1</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">97</column>
+            <column name="twitid">492558384701260000</column>
+            <column name="date">1406270044</column>
+            <column name="name">infoker_ru</column>
+            <column name="text">МТС включила 4G в Саратовской области http://t.co/DHzBXP6K7q</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">0</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">98</column>
+            <column name="twitid">492561145057010000</column>
+            <column name="date">1406270702</column>
+            <column name="name">Bohdan_Lutsyk</column>
+            <column name="text">почему людям нравмтся майнкрафт http://t.co/HUllVIREeI</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">0</column>
+            <column name="megafon">NULL</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">99</column>
+            <column name="twitid">492561771535020000</column>
+            <column name="date">1406270852</column>
+            <column name="name">fasbot</column>
+            <column name="text">RT @lexandrGurkin: @rus_fas @nicko664 @Grajdansky @megafonru оператор и спамер продолжают рассылки спама, наплевав на ФАС https://t.co/Ajr5…</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">-1</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+        <table name="ttk">
+            <column name="id">100</column>
+            <column name="twitid">492561773027820000</column>
+            <column name="date">1406270852</column>
+            <column name="name">bullledrai</column>
+            <column name="text">&quot;Мегафон&quot; не получил крупный контракт на обслуживание Пенсионного фонда: ПФР при выборе победителя учитывал среди… #Афоризмы</column>
+            <column name="beeline">NULL</column>
+            <column name="mts">NULL</column>
+            <column name="megafon">0</column>
+            <column name="tele2">NULL</column>
+            <column name="rostelecom">NULL</column>
+            <column name="komstar">NULL</column>
+            <column name="skylink">NULL</column>
+        </table>
+    </database>
+</pma_xml_export>
