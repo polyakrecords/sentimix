@@ -33,7 +33,7 @@ class TextAnalyzer:
         """
 
         try:
-            self.dict = np.genfromtxt(self.csv_path, skiprows=1, delimiter=" ", dtype="str")
+            self.dict = np.genfromtxt(self.csv_path, skip_header=1, delimiter=" ", dtype="str", comments=None)
         except IOError:
             print "ERROR: There is no such file! Please check the path."
 
